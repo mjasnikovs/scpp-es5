@@ -1,0 +1,37 @@
+{
+  "name": "scpp-es5",
+  "version": "1.0.3",
+  "engines": {
+    "node": ">=6.0.0"
+  },
+  "description": "Micro functions to execute asynchronous functions synchronously or in parallel.",
+  "main": "index.js",
+  "scripts": {
+    "test": "node_modules/.bin/mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mjasnikovs/scpp-es5.git"
+  },
+  "keywords": [
+    "sync",
+    "parallel",
+    "async",
+    "small",
+    "fast"
+  ],
+  "author": "Edgars Mjasņiokovs",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mjasnikovs/scpp-es5/issues"
+  },
+  "homepage": "https://github.com/mjasnikovs/scpp-es5#readme",
+  "devDependencies": {
+    "babel-eslint": "^7.2.0",
+    "chai": "^3.5.0",
+    "eslint": "^3.18.0",
+    "eslint-plugin-babel": "^4.1.1",
+    "eslint-plugin-node": "^4.2.1",
+    "mocha": "^3.2.0"
+  }
+}
